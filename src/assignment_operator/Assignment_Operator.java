@@ -7,17 +7,14 @@ public class Assignment_Operator {
 		
 		//--------------------------------------------------------
         try (Scanner input = new Scanner (System.in)) {
-			double length, width, area;
+			double length, area;
 			
 			System.out.print("Enter length : ");
 			length = input.nextDouble();
 			
-			System.out.print("Enter width : ");
-			width = input.nextDouble();
+			area = length * length;
 			
-			area = length * width;
-			
-			System.out.printf("Area of Rectangle : %.2f ", area);
+			System.out.printf("Area of Square : %.2f ", area);
 		}
         //--------------------------------------------------------
 	}
