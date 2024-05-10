@@ -7,17 +7,19 @@ public class Assignment_Operator {
 		
 		//--------------------------------------------------------
         try (Scanner input = new Scanner (System.in)) {
-			double redius, area;
+			double length, width, area;
 			
-			System.out.print("Enter redius : ");
-			redius = input.nextDouble();
+			System.out.print("Enter length : ");
+			length = input.nextDouble();
 			
-			area = 3.1416 * redius * redius;
+			System.out.print("Enter width : ");
+			width = input.nextDouble();
 			
-			System.out.printf("Area of circle : %.3f ", area);
+			area = length * width;
+			
+			System.out.printf("Area of Rectangle : %.2f ", area);
 		}
         //--------------------------------------------------------
-		//assignment operator চিহ্ন ( =, +=, -=, *=, /=, %= ) ৬টি।।
 	}
 
 }
