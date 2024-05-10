@@ -12,9 +12,9 @@ public class Assignment_Operator {
 			System.out.print("Enter length : ");
 			length = input.nextDouble();
 			
-			area = length * length;
+			area = 4 * length;
 			
-			System.out.printf("Area of Square : %.2f ", area);
+			System.out.print("Perimeter of Square : "+ area);
 		}
         //--------------------------------------------------------
 	}
