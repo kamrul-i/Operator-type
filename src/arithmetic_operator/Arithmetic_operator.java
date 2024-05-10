@@ -14,21 +14,11 @@ public class Arithmetic_operator {
 			System.out.print("Enter second number : ");
 			num2 = input.nextInt();
 			
-			result = num1 + num2;
-			System.out.println("sum = "+result);
 			
-			result = num1 - num2;
-			System.out.println("sub : "+result);
+			double result1 = (double) num1 / num2;
+			System.out.printf("Division : %.2f", result1);
+			System.out.printf("\n");
 			
-			result = num1 * num2;
-			System.out.println("multiplication : "+result);
-			
-			result = num1 / num2;
-			System.out.println("Division : "+result);
-			
-			
-			result = num1 % num2;
-			System.out.print("Reminder : "+result);
 		}
 	}
 
