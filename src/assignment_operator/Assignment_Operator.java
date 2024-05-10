@@ -7,17 +7,14 @@ public class Assignment_Operator {
 		
 		//--------------------------------------------------------
         try (Scanner input = new Scanner (System.in)) {
-			double length, width, area;
+			double redius, area;
 			
-			System.out.print("Enter length : ");
-			length = input.nextDouble();
+			System.out.print("Enter redius : ");
+			redius = input.nextDouble();
 			
-			System.out.print("Enter width : ");
-			width = input.nextDouble();
+			area = 2 * 3.1416 * redius ;
 			
-			area = 2 * ( length + width);
-			
-			System.out.print("Perimeter of Rectangle : "+ area);
+			System.out.printf("Perimeter of circle : %.2f", area);
 		}
         //--------------------------------------------------------
 	}
