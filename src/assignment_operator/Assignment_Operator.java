@@ -7,17 +7,14 @@ public class Assignment_Operator {
 		
 		//--------------------------------------------------------
         try (Scanner input = new Scanner (System.in)) {
-			double base, height, area;
+			double redius, area;
 			
-			System.out.print("Enter base : ");
-			base = input.nextDouble();
+			System.out.print("Enter redius : ");
+			redius = input.nextDouble();
 			
-			System.out.print("Enter height : ");
-			height = input.nextDouble();
+			area = 3.1416 * redius * redius;
 			
-			area = 0.5 * base * height;
-			
-			System.out.println("Area of triangle : "+area);
+			System.out.printf("Area of circle : %.3f ", area);
 		}
         //--------------------------------------------------------
 		//assignment operator চিহ্ন ( =, +=, -=, *=, /=, %= ) ৬টি।।
