@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class Arithmetic_operator {
 	public static void main(String[] args) {
 		
+
+		
 		try (Scanner input = new Scanner(System.in)) {
-			int num1, num2, result;
+			int num1, num2;
 			
 			System.out.print("Enter first number : ");
 			num1 = input.nextInt();
@@ -18,6 +20,9 @@ public class Arithmetic_operator {
 			double result1 = (double) num1 / num2;
 			System.out.printf("Division : %.2f", result1);
 			System.out.printf("\n");
+			
+			//arithmetic operator মানে হলো (যোগ, বিয়োগ, গুণ, ভাগ, ভাগশেষ)।।
+			//arithmetic operator চিহ্ন ( + - * / % ) ৫টি।।
 			
 		}
 	}
