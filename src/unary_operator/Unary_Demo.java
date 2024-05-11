@@ -2,18 +2,30 @@ package unary_operator;
 
 public class Unary_Demo {
 	public static void main(String[] args) {
+		
+		
+		
+		int x = 10;
+        int y;
 
         
-        //-------------------------------------------
-		int y = -10;
-        int result;
+        //Increment Demo..................................
+        y = ++x;  //x=11
+        System.out.println("y = "+y);
         
-        result = +y;    //unary plus যেকোন result কে positive হিসেবে দেখায়।।
-        System.out.println("Result : "+result);
+        y = x;   //x=11
+        System.out.println("y = "+y);
+               
         
-        result = -y;     //unary minus যেকোন result কে negative হিসেবে দেখায়।।
-        System.out.println("Result : "+result);
-        //--------------------------------------------
+        
+        y = x++;  //x=11
+        System.out.println("y = "+y);
+        
+        y = x;    //x= 12
+        System.out.println("y = "+y);
+        
+        
+       
 	}
 
 }
