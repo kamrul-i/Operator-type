@@ -9,23 +9,18 @@ public class Unary_Demo {
         int y;
 
         
-        //Increment Demo..................................
-        y = ++x;  //x=11
+        //Decrement Demo......................................
+        y = --x;  //x=9
         System.out.println("y = "+y);
         
-        y = x;   //x=11
-        System.out.println("y = "+y);
-               
-        
-        
-        y = x++;  //x=11
+        y = x;   //x=9
         System.out.println("y = "+y);
         
-        y = x;    //x= 12
+        y = x--;  //x=9
         System.out.println("y = "+y);
         
-        
-       
+        y = x;    //x= 8
+        System.out.println("y = "+y);
 	}
 
 }
